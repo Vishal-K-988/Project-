@@ -21,20 +21,20 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0 px-1 ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Vishal.K </a>
+    <a class="navbar-brand" href="index.php">Vishal.K </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          <a class="nav-link " aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link active" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -255,6 +255,56 @@
 
       </p>
         
+      <!-- hr -->
+      <hr class="featurette-divider mx-5 ">
+
+      <h2 class="mx-1 px-4  ">
+       Summary
+      </h2>
+
+      <dl class="row mx-4 px-4 pt-4  bg-light rounded">
+        <dt class="col-sm-3">About </dt>
+        <dd class="col-sm-9">Create an
+           <strong><em>
+          Authentication System 
+        </em></strong>
+       </dd>
+      
+        <dt class="col-sm-3 ">Tech-Stack </dt>
+        <dd class="col-sm-9">
+          <p style="margin-bottom: 0px;" >HTML, CSS, .Js, PHP, Bootstrap</p>
+        </dd>
+      
+         <dt class="col-sm-3">Team </dt>
+        <dd class="col-sm-9">
+          <ul class="mx-5 px-4">
+            <li>
+              <Strong>Vishal.K</Strong>
+            </li>
+            <li>
+              <strong>Sudhanshu Gautam</strong>
+            </li>
+            <li>
+              <strong>Hardik Lodhi </strong>
+            </li>
+            <li>
+              <Strong>Mohit </Strong>
+            </li>
+          </ul>          
+          </dd>
+      
+        <!-- <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+        <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+      
+        <dt class="col-sm-3">Nesting</dt>
+        <dd class="col-sm-9">
+          <dl class="row">
+            <dt class="col-sm-4">Nested definition list</dt>
+            <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd> -->
+          </dl>
+        </dd>
+      </dl>
+
 
          </div>
 
@@ -269,7 +319,12 @@
         system for Student(Users). <br> So that they can their results without any Hustle. 
         <br>
         <br>
-        <a href="/Login/index.html">
+        
+        
+
+
+
+        <a href="/Login/index.php">
           <button type="button" class="btn btn-outline-danger">Project Live ! </button>
         </a>
         <br><br></p>
@@ -361,13 +416,13 @@
 
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-2 border-top">
-      <p class="col-md-4 mb-0 ">        © 2022 Vishal.K, Sudhanshu Gautam, Hardik Lodhi, Mohit</p>
+      <p class="col-md-4 mb-0 ">        Vishal.K, Sudhanshu Gautam  © 2022 </p>
 <!--       
       <blockquote class="blockquote col-md-4 mb-0 ">
         <p>  © 2022 Vishal.K, Inc</p>
       </blockquote> -->
 
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none  text-dark ">
+      <a href="about.php" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none  text-dark ">
         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
           <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
           <path d="M2 4h4.332l-.94 1H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.38l-.308 1H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>

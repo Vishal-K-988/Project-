@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User</title>
     <link rel="icon" type="image/x-icon" href="signin-favicon.png">
     <link rel="stylesheet" href="style.css">
-   
-
     
 </head>
 <body>
+
+
+
+
+    
     <h2>Sign in/up Form</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="dashboard.html">
+            <form action="dashboard.php">
                
                 <h1>Create Account</h1>
                 <div class="social-container">
@@ -38,6 +42,7 @@
                 </div>
                 <span>or use your email for registration</span>
                 <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Class / Section" />
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <button class="signup">Sign Up</button>
@@ -84,7 +89,7 @@
 
                     <input type="email" placeholder="Email" name="email"/>
                     <input type="password" placeholder="Password" name="password" />
-                    <a href="forgot.html">Forgot your password?</a>
+                    <a href="forgot.php">Forgot your password?</a>
                     <button id="login-form-submit" >Sign In</a></button>
                     <!-- <input type="submit" value="Login" id="login-form-submit"> -->
     
@@ -114,8 +119,20 @@
     
     <script src="react.js"></script>
     <script src="Api.js"></script>
-    <footer>Created by: Vishal.K 
-         <p>Best experience in 419x459   </p>
+    
+    <footer>
+        <div class="footer" >
+             <p>
+             Created by: Vishal.K - - - - - - - - - - - - - - -   
+               Best experience in 419x459  
+             
+        </div>
+        
+    
+   
+      
+
+   
     </footer>
     <script defer src="login-page.js"></script>
 </body>

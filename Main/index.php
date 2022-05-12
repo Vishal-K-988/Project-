@@ -19,20 +19,20 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0 px-1 ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Vishal.K </a>
+          <a class="navbar-brand" href="index.php">Vishal.K </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -193,7 +193,7 @@
       <br>
    
    
-    <a href="about.html" target="_blank"> Continue Reading...</a>  
+    <a href="about.php" target="_blank"> Continue Reading...</a>  
     
     
     
@@ -204,7 +204,7 @@
   
   <div class="col-md-4 ">
 
-    <a href="about.html"  class="stretched-link " target="_blank"> 
+    <a href="about.php"  class="stretched-link " target="_blank"> 
     
     <img src="pexels-andrea-piacquadio-935756 (1).jpg"  alt="work ">
   </a>
@@ -263,7 +263,7 @@
 
 
 
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none  text-dark ">
+      <a href="/Main/index.php" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none  text-dark ">
         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
           <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
           <path d="M2 4h4.332l-.94 1H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.38l-.308 1H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
