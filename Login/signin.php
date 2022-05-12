@@ -105,8 +105,7 @@ mysqli_close($conn);
     
 </head>
 <body>
-
-
+    <!-- <body background="background.jpg" class="background-image" > -->
 
 
     
