@@ -1,18 +1,3 @@
-<?php
-
-session_start();
-
-if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
-{
-    header("location: login.php");
-}
-
-
-?>
-
-
-
-
 
 
 
@@ -46,7 +31,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
              </svg>
 
              <blockquote class="blockquote" style="padding-left: 6px;"  >
-              <?php echo  $_SESSION['username']?>
+              <!-- <?php echo  $_SESSION['username']?> -->
             
               
              
@@ -157,7 +142,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
       
           <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-              <h1 class="h2"> <?php echo  $_SESSION['username']?> </h1>
+              <h1 class="h2">
+                 <!-- <?php echo  $_SESSION['username']?>  -->
+                 vishal.k
+                </h1>
               <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group me-2">
                   
@@ -237,7 +225,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
               </div>
             </div>
       
-            <img src="/Main/pexels-pixabay-357159.jpg" class="d-flex justify-content-center align-items-center " style="padding-left: 2px;" alt="">
+            <img src="dashboard.jpg" class="d-flex justify-content-center align-items-center " style="padding-left: 2px;" alt="">
             <!-- <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="1314" height="554" style="display: block; height: 277px; width: 657px;"></canvas> -->
       
             <h2>Section title</h2>
